@@ -3,7 +3,7 @@ alternate: Xiao Gao
 #菜单与社交按钮
 menu:
   home: / || home
-  about: /about/ || user
+  #about: /about/ || user
   posts:
     default: / || feather
     archives: /archives/ || list-alt
@@ -39,3 +39,11 @@ sidebar:
   # position: right
   # Replace the default avatar image and set the url here.
   avatar: avatar.jpg
+#设置是否显示随机文章和评论
+widgets:
+  # if true, will show random posts
+  random_posts: false
+  # if true, will show recent comments
+  recent_comments: false
+
+
